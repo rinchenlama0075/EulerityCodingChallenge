@@ -1,0 +1,6 @@
+framework module Brightroom {
+  umbrella header "Brightroom-umbrella.h"
+
+  export *
+  module * { export * }
+}

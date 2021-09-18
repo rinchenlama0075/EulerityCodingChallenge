@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "AlamofireImage",
+        "repositoryURL": "https://github.com/Alamofire/AlamofireImage",
+        "state": {
+          "branch": null,
+          "revision": "98cbb00ce0ec5fc8e52a5b50a6bfc08d3e5aee10",
+          "version": "4.2.0"
+        }
+      },
+      {
+        "package": "Brightroom",
+        "repositoryURL": "https://github.com/muukii/Brightroom",
+        "state": {
+          "branch": null,
+          "revision": "076b3fa9598da9b74878e2e6ea9ab0ae153a87a4",
+          "version": "2.3.2"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
+          "version": "6.2.0"
+        }
+      },
+      {
+        "package": "TransitionPatch",
+        "repositoryURL": "https://github.com/muukii/TransitionPatch.git",
+        "state": {
+          "branch": null,
+          "revision": "1f2e5930a68b11dae764ee7ffda14b2b7ffa8fce",
+          "version": "1.0.3"
+        }
+      },
+      {
+        "package": "Verge",
+        "repositoryURL": "https://github.com/VergeGroup/Verge.git",
+        "state": {
+          "branch": null,
+          "revision": "ebb80414c463a0beeca6a1eebb7eba9b6839a704",
+          "version": "8.12.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

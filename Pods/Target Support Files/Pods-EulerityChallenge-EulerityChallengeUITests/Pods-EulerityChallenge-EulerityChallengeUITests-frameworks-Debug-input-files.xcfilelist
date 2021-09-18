@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge-EulerityChallengeUITests/Pods-EulerityChallenge-EulerityChallengeUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework
+${BUILT_PRODUCTS_DIR}/Brightroom/Brightroom.framework
+${BUILT_PRODUCTS_DIR}/Parse/Parse.framework
+${BUILT_PRODUCTS_DIR}/TransitionPatch/TransitionPatch.framework
+${BUILT_PRODUCTS_DIR}/Verge/Verge.framework

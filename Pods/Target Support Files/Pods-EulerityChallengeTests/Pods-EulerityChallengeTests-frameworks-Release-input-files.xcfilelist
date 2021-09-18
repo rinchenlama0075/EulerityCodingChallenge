@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-EulerityChallengeTests/Pods-EulerityChallengeTests-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PhotoEditorSDK/PhotoEditorSDK.framework/PhotoEditorSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ImglyKit/ImglyKit.framework/ImglyKit

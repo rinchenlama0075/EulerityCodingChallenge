@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.3.0)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - Bolts/Tasks (1.9.1)
+  - Brightroom/Engine (2.0.0-alpha.8):
+    - Verge (~> 8.9.1)
+  - Brightroom/UI-Classic (2.0.0-alpha.8):
+    - Brightroom/Engine
+    - TransitionPatch
+    - Verge (~> 8.9.1)
+  - Brightroom/UI-Crop (2.0.0-alpha.8):
+    - Brightroom/Engine
+    - Verge (~> 8.9.1)
+  - Parse (1.19.2):
+    - Parse/Core (= 1.19.2)
+  - Parse/Core (1.19.2):
+    - Bolts/Tasks (= 1.9.1)
+  - TransitionPatch (1.0.2)
+  - Verge (8.9.1):
+    - Verge/Store (= 8.9.1)
+  - Verge/ObjcBridge (8.9.1)
+  - Verge/Store (8.9.1):
+    - Verge/ObjcBridge
+
+DEPENDENCIES:
+  - AlamofireImage
+  - Brightroom/Engine (= 2.0.0-alpha.8)
+  - Brightroom/UI-Classic (= 2.0.0-alpha.8)
+  - Brightroom/UI-Crop (= 2.0.0-alpha.8)
+  - Parse
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Bolts
+    - Brightroom
+    - Parse
+    - TransitionPatch
+    - Verge
+
+SPEC CHECKSUMS:
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Brightroom: 5bf57b23295fb70996662ec1d3815a66af215e79
+  Parse: 081fb8755c3000fd11df817eec235def233d0af3
+  TransitionPatch: c02b48b1429255b14ef82b7e411034e0958b9681
+  Verge: ff2be8ea208d5f6fb9b8921c03b122307a040a49
+
+PODFILE CHECKSUM: 3576fbdda4e1a8bf649fddb5d2aef375790b0ebb
+
+COCOAPODS: 1.10.0

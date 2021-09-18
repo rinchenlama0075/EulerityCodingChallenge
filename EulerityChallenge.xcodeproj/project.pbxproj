@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E12D3CD26F2EF90008AFB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D3CC26F2EF90008AFB88 /* AppDelegate.swift */; };
+		1E12D3CF26F2EF90008AFB88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D3CE26F2EF90008AFB88 /* SceneDelegate.swift */; };
+		1E12D3D426F2EF90008AFB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E12D3D226F2EF90008AFB88 /* Main.storyboard */; };
+		1E12D3D626F2EF93008AFB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E12D3D526F2EF93008AFB88 /* Assets.xcassets */; };
+		1E12D3D926F2EF93008AFB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E12D3D726F2EF93008AFB88 /* LaunchScreen.storyboard */; };
+		1E12D3E426F2EF93008AFB88 /* EulerityChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D3E326F2EF93008AFB88 /* EulerityChallengeTests.swift */; };
+		1E12D3EF26F2EF94008AFB88 /* EulerityChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D3EE26F2EF94008AFB88 /* EulerityChallengeUITests.swift */; };
+		1E12D40E26F3C9D3008AFB88 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1E12D40D26F3C9D3008AFB88 /* AlamofireImage */; };
+		1E9ECE0426F4084F00936DA5 /* imageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9ECE0326F4084F00936DA5 /* imageEditViewController.swift */; };
+		1E9ECE1F26F412FE00936DA5 /* BrightroomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E9ECE1E26F412FE00936DA5 /* BrightroomUI */; };
+		1E9ECE2126F412FE00936DA5 /* BrightroomEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 1E9ECE2026F412FE00936DA5 /* BrightroomEngine */; };
+		1EADC8F926F3FA01005C88B0 /* imageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADC8F826F3FA01005C88B0 /* imageCollectionViewCell.swift */; };
+		1EADC90626F3FC4A005C88B0 /* imageGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADC90526F3FC4A005C88B0 /* imageGridViewController.swift */; };
+		233344AEBE339F469F890838 /* Pods_EulerityChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD55E8E9860EB351784121CD /* Pods_EulerityChallenge.framework */; };
+		4AD80F2684F6A62C89F9CF09 /* Pods_EulerityChallenge_EulerityChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDCA17D9CCFAAC9EE5D0A21 /* Pods_EulerityChallenge_EulerityChallengeUITests.framework */; };
+		EB0CD5C8B35B2E2DC1FB213D /* Pods_EulerityChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BB0CE31344BBA6FBB11EAE /* Pods_EulerityChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E12D3E026F2EF93008AFB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E12D3C126F2EF90008AFB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E12D3C826F2EF90008AFB88;
+			remoteInfo = EulerityChallenge;
+		};
+		1E12D3EB26F2EF94008AFB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E12D3C126F2EF90008AFB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E12D3C826F2EF90008AFB88;
+			remoteInfo = EulerityChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EDCA17D9CCFAAC9EE5D0A21 /* Pods_EulerityChallenge_EulerityChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EulerityChallenge_EulerityChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E12D3C926F2EF90008AFB88 /* EulerityChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EulerityChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E12D3CC26F2EF90008AFB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E12D3CE26F2EF90008AFB88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E12D3D326F2EF90008AFB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E12D3D526F2EF93008AFB88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E12D3D826F2EF93008AFB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E12D3DA26F2EF93008AFB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E12D3DF26F2EF93008AFB88 /* EulerityChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EulerityChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E12D3E326F2EF93008AFB88 /* EulerityChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerityChallengeTests.swift; sourceTree = "<group>"; };
+		1E12D3E526F2EF93008AFB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E12D3EA26F2EF94008AFB88 /* EulerityChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EulerityChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E12D3EE26F2EF94008AFB88 /* EulerityChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerityChallengeUITests.swift; sourceTree = "<group>"; };
+		1E12D3F026F2EF94008AFB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9ECE0326F4084F00936DA5 /* imageEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageEditViewController.swift; sourceTree = "<group>"; };
+		1EADC8F826F3FA01005C88B0 /* imageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionViewCell.swift; sourceTree = "<group>"; };
+		1EADC90526F3FC4A005C88B0 /* imageGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGridViewController.swift; sourceTree = "<group>"; };
+		45BB0CE31344BBA6FBB11EAE /* Pods_EulerityChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EulerityChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55356462AB62EC722EC87120 /* Pods-EulerityChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EulerityChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-EulerityChallengeTests/Pods-EulerityChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8406E8CBC7CD389D669219AC /* Pods-EulerityChallenge-EulerityChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EulerityChallenge-EulerityChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-EulerityChallenge-EulerityChallengeUITests/Pods-EulerityChallenge-EulerityChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84BA476EF26BBFE96C1F1CCC /* Pods-EulerityChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EulerityChallenge.debug.xcconfig"; path = "Target Support Files/Pods-EulerityChallenge/Pods-EulerityChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		D3AD0ABC9F8EDD3409B4F77D /* Pods-EulerityChallenge-EulerityChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EulerityChallenge-EulerityChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-EulerityChallenge-EulerityChallengeUITests/Pods-EulerityChallenge-EulerityChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD55E8E9860EB351784121CD /* Pods_EulerityChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EulerityChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58E7CF866B16C1636BED265 /* Pods-EulerityChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EulerityChallenge.release.xcconfig"; path = "Target Support Files/Pods-EulerityChallenge/Pods-EulerityChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		FA9E1C9BAB10EDFF8CDCE551 /* Pods-EulerityChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EulerityChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-EulerityChallengeTests/Pods-EulerityChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E12D3C626F2EF90008AFB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E12D40E26F3C9D3008AFB88 /* AlamofireImage in Frameworks */,
+				1E9ECE1F26F412FE00936DA5 /* BrightroomUI in Frameworks */,
+				233344AEBE339F469F890838 /* Pods_EulerityChallenge.framework in Frameworks */,
+				1E9ECE2126F412FE00936DA5 /* BrightroomEngine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E12D3DC26F2EF93008AFB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0CD5C8B35B2E2DC1FB213D /* Pods_EulerityChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E12D3E726F2EF94008AFB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD80F2684F6A62C89F9CF09 /* Pods_EulerityChallenge_EulerityChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E12D3C026F2EF90008AFB88 = {
+			isa = PBXGroup;
+			children = (
+				1E12D3CB26F2EF90008AFB88 /* EulerityChallenge */,
+				1E12D3E226F2EF93008AFB88 /* EulerityChallengeTests */,
+				1E12D3ED26F2EF94008AFB88 /* EulerityChallengeUITests */,
+				1E12D3CA26F2EF90008AFB88 /* Products */,
+				BFC434E697F642E9EB0448DC /* Pods */,
+				E5F4B4BB3AD8D96A033D873A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E12D3CA26F2EF90008AFB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E12D3C926F2EF90008AFB88 /* EulerityChallenge.app */,
+				1E12D3DF26F2EF93008AFB88 /* EulerityChallengeTests.xctest */,
+				1E12D3EA26F2EF94008AFB88 /* EulerityChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E12D3CB26F2EF90008AFB88 /* EulerityChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				1E12D3CC26F2EF90008AFB88 /* AppDelegate.swift */,
+				1E12D3CE26F2EF90008AFB88 /* SceneDelegate.swift */,
+				1E12D3D226F2EF90008AFB88 /* Main.storyboard */,
+				1E12D3D526F2EF93008AFB88 /* Assets.xcassets */,
+				1E12D3D726F2EF93008AFB88 /* LaunchScreen.storyboard */,
+				1E12D3DA26F2EF93008AFB88 /* Info.plist */,
+				1EADC8F826F3FA01005C88B0 /* imageCollectionViewCell.swift */,
+				1EADC90526F3FC4A005C88B0 /* imageGridViewController.swift */,
+				1E9ECE0326F4084F00936DA5 /* imageEditViewController.swift */,
+			);
+			path = EulerityChallenge;
+			sourceTree = "<group>";
+		};
+		1E12D3E226F2EF93008AFB88 /* EulerityChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E12D3E326F2EF93008AFB88 /* EulerityChallengeTests.swift */,
+				1E12D3E526F2EF93008AFB88 /* Info.plist */,
+			);
+			path = EulerityChallengeTests;
+			sourceTree = "<group>";
+		};
+		1E12D3ED26F2EF94008AFB88 /* EulerityChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E12D3EE26F2EF94008AFB88 /* EulerityChallengeUITests.swift */,
+				1E12D3F026F2EF94008AFB88 /* Info.plist */,
+			);
+			path = EulerityChallengeUITests;
+			sourceTree = "<group>";
+		};
+		BFC434E697F642E9EB0448DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84BA476EF26BBFE96C1F1CCC /* Pods-EulerityChallenge.debug.xcconfig */,
+				F58E7CF866B16C1636BED265 /* Pods-EulerityChallenge.release.xcconfig */,
+				8406E8CBC7CD389D669219AC /* Pods-EulerityChallenge-EulerityChallengeUITests.debug.xcconfig */,
+				D3AD0ABC9F8EDD3409B4F77D /* Pods-EulerityChallenge-EulerityChallengeUITests.release.xcconfig */,
+				55356462AB62EC722EC87120 /* Pods-EulerityChallengeTests.debug.xcconfig */,
+				FA9E1C9BAB10EDFF8CDCE551 /* Pods-EulerityChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5F4B4BB3AD8D96A033D873A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD55E8E9860EB351784121CD /* Pods_EulerityChallenge.framework */,
+				0EDCA17D9CCFAAC9EE5D0A21 /* Pods_EulerityChallenge_EulerityChallengeUITests.framework */,
+				45BB0CE31344BBA6FBB11EAE /* Pods_EulerityChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E12D3C826F2EF90008AFB88 /* EulerityChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E12D3F326F2EF94008AFB88 /* Build configuration list for PBXNativeTarget "EulerityChallenge" */;
+			buildPhases = (
+				507D6E070C37BECC6006862F /* [CP] Check Pods Manifest.lock */,
+				1E12D3C526F2EF90008AFB88 /* Sources */,
+				1E12D3C626F2EF90008AFB88 /* Frameworks */,
+				1E12D3C726F2EF90008AFB88 /* Resources */,
+				572804C82C832E51AE05CC8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EulerityChallenge;
+			packageProductDependencies = (
+				1E12D40D26F3C9D3008AFB88 /* AlamofireImage */,
+				1E9ECE1E26F412FE00936DA5 /* BrightroomUI */,
+				1E9ECE2026F412FE00936DA5 /* BrightroomEngine */,
+			);
+			productName = EulerityChallenge;
+			productReference = 1E12D3C926F2EF90008AFB88 /* EulerityChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E12D3DE26F2EF93008AFB88 /* EulerityChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E12D3F626F2EF94008AFB88 /* Build configuration list for PBXNativeTarget "EulerityChallengeTests" */;
+			buildPhases = (
+				22FAB55CEBD7870EEEB0A646 /* [CP] Check Pods Manifest.lock */,
+				1E12D3DB26F2EF93008AFB88 /* Sources */,
+				1E12D3DC26F2EF93008AFB88 /* Frameworks */,
+				1E12D3DD26F2EF93008AFB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E12D3E126F2EF93008AFB88 /* PBXTargetDependency */,
+			);
+			name = EulerityChallengeTests;
+			productName = EulerityChallengeTests;
+			productReference = 1E12D3DF26F2EF93008AFB88 /* EulerityChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E12D3E926F2EF94008AFB88 /* EulerityChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E12D3F926F2EF94008AFB88 /* Build configuration list for PBXNativeTarget "EulerityChallengeUITests" */;
+			buildPhases = (
+				B7B512F7AD16DF1E90506D35 /* [CP] Check Pods Manifest.lock */,
+				1E12D3E626F2EF94008AFB88 /* Sources */,
+				1E12D3E726F2EF94008AFB88 /* Frameworks */,
+				1E12D3E826F2EF94008AFB88 /* Resources */,
+				35917127248FAE10F250D177 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E12D3EC26F2EF94008AFB88 /* PBXTargetDependency */,
+			);
+			name = EulerityChallengeUITests;
+			productName = EulerityChallengeUITests;
+			productReference = 1E12D3EA26F2EF94008AFB88 /* EulerityChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E12D3C126F2EF90008AFB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1E12D3C826F2EF90008AFB88 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1E12D3DE26F2EF93008AFB88 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1E12D3C826F2EF90008AFB88;
+					};
+					1E12D3E926F2EF94008AFB88 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1E12D3C826F2EF90008AFB88;
+					};
+				};
+			};
+			buildConfigurationList = 1E12D3C426F2EF90008AFB88 /* Build configuration list for PBXProject "EulerityChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E12D3C026F2EF90008AFB88;
+			packageReferences = (
+				1E12D40C26F3C9D3008AFB88 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				1E9ECE1D26F412FE00936DA5 /* XCRemoteSwiftPackageReference "Brightroom" */,
+			);
+			productRefGroup = 1E12D3CA26F2EF90008AFB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E12D3C826F2EF90008AFB88 /* EulerityChallenge */,
+				1E12D3DE26F2EF93008AFB88 /* EulerityChallengeTests */,
+				1E12D3E926F2EF94008AFB88 /* EulerityChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E12D3C726F2EF90008AFB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E12D3D926F2EF93008AFB88 /* LaunchScreen.storyboard in Resources */,
+				1E12D3D626F2EF93008AFB88 /* Assets.xcassets in Resources */,
+				1E12D3D426F2EF90008AFB88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E12D3DD26F2EF93008AFB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E12D3E826F2EF94008AFB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FAB55CEBD7870EEEB0A646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EulerityChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35917127248FAE10F250D177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge-EulerityChallengeUITests/Pods-EulerityChallenge-EulerityChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge-EulerityChallengeUITests/Pods-EulerityChallenge-EulerityChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge-EulerityChallengeUITests/Pods-EulerityChallenge-EulerityChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		507D6E070C37BECC6006862F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EulerityChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		572804C82C832E51AE05CC8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge/Pods-EulerityChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge/Pods-EulerityChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EulerityChallenge/Pods-EulerityChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B512F7AD16DF1E90506D35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EulerityChallenge-EulerityChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E12D3C526F2EF90008AFB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E12D3CD26F2EF90008AFB88 /* AppDelegate.swift in Sources */,
+				1EADC90626F3FC4A005C88B0 /* imageGridViewController.swift in Sources */,
+				1EADC8F926F3FA01005C88B0 /* imageCollectionViewCell.swift in Sources */,
+				1E12D3CF26F2EF90008AFB88 /* SceneDelegate.swift in Sources */,
+				1E9ECE0426F4084F00936DA5 /* imageEditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E12D3DB26F2EF93008AFB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E12D3E426F2EF93008AFB88 /* EulerityChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E12D3E626F2EF94008AFB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E12D3EF26F2EF94008AFB88 /* EulerityChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E12D3E126F2EF93008AFB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E12D3C826F2EF90008AFB88 /* EulerityChallenge */;
+			targetProxy = 1E12D3E026F2EF93008AFB88 /* PBXContainerItemProxy */;
+		};
+		1E12D3EC26F2EF94008AFB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E12D3C826F2EF90008AFB88 /* EulerityChallenge */;
+			targetProxy = 1E12D3EB26F2EF94008AFB88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E12D3D226F2EF90008AFB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E12D3D326F2EF90008AFB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E12D3D726F2EF93008AFB88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E12D3D826F2EF93008AFB88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E12D3F126F2EF94008AFB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E12D3F226F2EF94008AFB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E12D3F426F2EF94008AFB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84BA476EF26BBFE96C1F1CCC /* Pods-EulerityChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EulerityChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rinchen.EulerityChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E12D3F526F2EF94008AFB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58E7CF866B16C1636BED265 /* Pods-EulerityChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EulerityChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rinchen.EulerityChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E12D3F726F2EF94008AFB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55356462AB62EC722EC87120 /* Pods-EulerityChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EulerityChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rinchen.EulerityChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EulerityChallenge.app/EulerityChallenge";
+			};
+			name = Debug;
+		};
+		1E12D3F826F2EF94008AFB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9E1C9BAB10EDFF8CDCE551 /* Pods-EulerityChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EulerityChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rinchen.EulerityChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EulerityChallenge.app/EulerityChallenge";
+			};
+			name = Release;
+		};
+		1E12D3FA26F2EF94008AFB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8406E8CBC7CD389D669219AC /* Pods-EulerityChallenge-EulerityChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EulerityChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rinchen.EulerityChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EulerityChallenge;
+			};
+			name = Debug;
+		};
+		1E12D3FB26F2EF94008AFB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AD0ABC9F8EDD3409B4F77D /* Pods-EulerityChallenge-EulerityChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EulerityChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rinchen.EulerityChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EulerityChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E12D3C426F2EF90008AFB88 /* Build configuration list for PBXProject "EulerityChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E12D3F126F2EF94008AFB88 /* Debug */,
+				1E12D3F226F2EF94008AFB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E12D3F326F2EF94008AFB88 /* Build configuration list for PBXNativeTarget "EulerityChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E12D3F426F2EF94008AFB88 /* Debug */,
+				1E12D3F526F2EF94008AFB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E12D3F626F2EF94008AFB88 /* Build configuration list for PBXNativeTarget "EulerityChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E12D3F726F2EF94008AFB88 /* Debug */,
+				1E12D3F826F2EF94008AFB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E12D3F926F2EF94008AFB88 /* Build configuration list for PBXNativeTarget "EulerityChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E12D3FA26F2EF94008AFB88 /* Debug */,
+				1E12D3FB26F2EF94008AFB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E12D40C26F3C9D3008AFB88 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		1E9ECE1D26F412FE00936DA5 /* XCRemoteSwiftPackageReference "Brightroom" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/muukii/Brightroom";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E12D40D26F3C9D3008AFB88 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E12D40C26F3C9D3008AFB88 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		1E9ECE1E26F412FE00936DA5 /* BrightroomUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E9ECE1D26F412FE00936DA5 /* XCRemoteSwiftPackageReference "Brightroom" */;
+			productName = BrightroomUI;
+		};
+		1E9ECE2026F412FE00936DA5 /* BrightroomEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E9ECE1D26F412FE00936DA5 /* XCRemoteSwiftPackageReference "Brightroom" */;
+			productName = BrightroomEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1E12D3C126F2EF90008AFB88 /* Project object */;
+}
