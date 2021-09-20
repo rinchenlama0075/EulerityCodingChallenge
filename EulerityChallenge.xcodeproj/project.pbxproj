@@ -15,6 +15,7 @@
 		1E12D3E426F2EF93008AFB88 /* EulerityChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D3E326F2EF93008AFB88 /* EulerityChallengeTests.swift */; };
 		1E12D3EF26F2EF94008AFB88 /* EulerityChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D3EE26F2EF94008AFB88 /* EulerityChallengeUITests.swift */; };
 		1E12D40E26F3C9D3008AFB88 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1E12D40D26F3C9D3008AFB88 /* AlamofireImage */; };
+		1E4A04CB26F79393002EF8EE /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4A04CA26F79393002EF8EE /* SpinnerViewController.swift */; };
 		1E9ECE0426F4084F00936DA5 /* imageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9ECE0326F4084F00936DA5 /* imageEditViewController.swift */; };
 		1E9ECE1F26F412FE00936DA5 /* BrightroomUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E9ECE1E26F412FE00936DA5 /* BrightroomUI */; };
 		1E9ECE2126F412FE00936DA5 /* BrightroomEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 1E9ECE2026F412FE00936DA5 /* BrightroomEngine */; };
@@ -57,6 +58,7 @@
 		1E12D3EA26F2EF94008AFB88 /* EulerityChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EulerityChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E12D3EE26F2EF94008AFB88 /* EulerityChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulerityChallengeUITests.swift; sourceTree = "<group>"; };
 		1E12D3F026F2EF94008AFB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4A04CA26F79393002EF8EE /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		1E9ECE0326F4084F00936DA5 /* imageEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageEditViewController.swift; sourceTree = "<group>"; };
 		1EADC8F826F3FA01005C88B0 /* imageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionViewCell.swift; sourceTree = "<group>"; };
 		1EADC90526F3FC4A005C88B0 /* imageGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGridViewController.swift; sourceTree = "<group>"; };
@@ -130,11 +132,12 @@
 				1E12D3CE26F2EF90008AFB88 /* SceneDelegate.swift */,
 				1E12D3D226F2EF90008AFB88 /* Main.storyboard */,
 				1E12D3D526F2EF93008AFB88 /* Assets.xcassets */,
-				1E12D3D726F2EF93008AFB88 /* LaunchScreen.storyboard */,
 				1E12D3DA26F2EF93008AFB88 /* Info.plist */,
+				1E12D3D726F2EF93008AFB88 /* LaunchScreen.storyboard */,
 				1EADC8F826F3FA01005C88B0 /* imageCollectionViewCell.swift */,
 				1EADC90526F3FC4A005C88B0 /* imageGridViewController.swift */,
 				1E9ECE0326F4084F00936DA5 /* imageEditViewController.swift */,
+				1E4A04CA26F79393002EF8EE /* SpinnerViewController.swift */,
 			);
 			path = EulerityChallenge;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				1EADC90626F3FC4A005C88B0 /* imageGridViewController.swift in Sources */,
 				1EADC8F926F3FA01005C88B0 /* imageCollectionViewCell.swift in Sources */,
 				1E12D3CF26F2EF90008AFB88 /* SceneDelegate.swift in Sources */,
+				1E4A04CB26F79393002EF8EE /* SpinnerViewController.swift in Sources */,
 				1E9ECE0426F4084F00936DA5 /* imageEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

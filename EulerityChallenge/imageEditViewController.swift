@@ -34,12 +34,30 @@ class imageEditViewController: UIViewController, UIImagePickerControllerDelegate
         print(url)
         print("URL END")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-            self.loadImage()
-        }
+        createSpinnerView()
         
        
     }
+    
+    func createSpinnerView() {
+        let child = SpinnerViewController()
+
+        // add the spinner view controller
+        addChild(child)
+        child.view.frame = view.frame
+        view.addSubview(child.view)
+        child.didMove(toParent: self)
+
+        // wait two seconds to simulate some work happening
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            // then remove the spinner view controller
+            self.loadImage()
+            child.willMove(toParent: nil)
+            child.view.removeFromSuperview()
+            child.removeFromParent()
+        }
+    }
+
     
     
     func loadImage(){
@@ -79,6 +97,38 @@ class imageEditViewController: UIViewController, UIImagePickerControllerDelegate
         }
         
         present(ac, animated: true)
+    }
+    
+    @IBAction func addText(_ sender: Any) {
+        
+        let label = "thi is a overlay"
+        
+        self.currentImage = textToImage(drawText: label, inImage: self.imageLabel.image!, atPoint: CGPoint(x: self.imageLabel.image!.size.height/2, y: 50))
+    }
+    
+    
+    func textToImage(drawText text: String, inImage image: UIImage, atPoint point: CGPoint) -> UIImage {
+        let textColor = UIColor.white
+        let textFont = UIFont(name: "Helvetica Bold", size: 12)!
+
+        let scale = UIScreen.main.scale
+        UIGraphicsBeginImageContextWithOptions(image.size, false, scale)
+
+        let textFontAttributes = [
+            NSAttributedString.Key.font: textFont,
+            NSAttributedString.Key.foregroundColor: textColor,
+            ] as [NSAttributedString.Key : Any]
+        image.draw(in: CGRect(origin: CGPoint.zero, size: image.size))
+
+        let rect = CGRect(origin: point, size: image.size)
+        text.draw(in: rect, withAttributes: textFontAttributes)
+
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+
+        print("settingimagelabel")
+        self.imageLabel.image = newImage!
+        return newImage!
     }
     
     func resetImage(action: UIAlertAction){
